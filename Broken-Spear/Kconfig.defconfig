@@ -1,0 +1,9 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_Broken-Spear
+
+config ZMK_KEYBOARD_NAME
+    default "Broken-Spear"
+
+endif

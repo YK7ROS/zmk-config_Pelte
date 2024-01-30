@@ -1,0 +1,5 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_Broken-Spear
+    def_bool $(shields_list_contains,Broken-Spear)
