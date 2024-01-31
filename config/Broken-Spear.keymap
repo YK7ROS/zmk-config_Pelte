@@ -10,6 +10,40 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    macros {
+        M_Undo: M_Undo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LCTRL &kp Z>;
+
+            label = "M_UNDO";
+        };
+
+        M_Cut: M_Cut {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LCTRL &kp Z>;
+
+            label = "M_CUT";
+        };
+
+        M_Copy: M_Copy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LCTRL &kp C>;
+
+            label = "M_COPY";
+        };
+
+        M_Paste: M_Paste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LCTRL &kp C>;
+
+            label = "M_PASTE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -54,7 +88,7 @@
   &kp ESC    &kp F1   &kp F2     &kp F3    &kp F4      &out OUT_USB  &out OUT_BLE  &none   &kp EQUAL  &kp MINUS
   &kp CAPS   &kp F5   &kp F6     &kp F7    &kp F8      &kp LBKT      &kp RBKT      &none   &kp GRAVE  &kp BSLH
   &kp LSHFT  &kp F9   &kp F10    &kp F11   &kp F12     &none         &none         &none   &none      &kp RSHFT
-  &kp Spc    &kp Ent  &kp LCTRL  &kp LGUI  &kp LALT    &sys_reset    &none         &trans  &kp 0      & & kp BSPC
+  &kp Spc    &kp Ent  &kp LCTRL  &kp LGUI  &kp LALT    &sys_reset    &none         &trans  &kp 0      & &  kp BSPC
             >;
         };
 
