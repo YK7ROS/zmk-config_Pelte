@@ -57,7 +57,7 @@
   &mt ESC Q        &mt PG_UP W  &mt UP E     &mt PG_DN R  &mt LC(PLUS) T     &mt SQT Y       &mt KP_NUMBER_7 U  &mt KP_N8 I      &mt KP_N9 O    &mt BSPC P
   &mt LSHFT A      &mt LEFT S   &mt DOWN D   &mt RIGHT F  &mt LC(MINUS) G    &mt DQT H       &mt KP_N4 J        &mt KP_N5 K      &mt KP_N6 L    &mt PRINTSCREEN SEMI
   &mt LC(Z) Z      &mt LC(X) X  &mt LC(C) C  &mt LC(V) V  &mt K_COFFEE B     &mt END N       &mt KP_N1 M        &mt KP_N2 COMMA  &mt KP_N3 DOT  &mt DELETE QUESTION
-  &mt ENTER SPACE  &lt 1 LWIN   &kp LALT     &kp LSHIFT   &kp LCTRL          &mt K_CALC TAB  &tog 3             &mt KP_N0 RALT   &lt 2 EXCL     &mt ENTER SPACE
+  &mt ENTER SPACE  &lt 1 LWIN   &kp LALT     &kp LSHIFT   &kp LCTRL          &mt K_CALC TAB  &to 1              &lt 2 KP_N0      &lt 3 EXCL     &mt ENTER SPACE
             >;
         };
 
@@ -69,10 +69,10 @@
             // |    |        | LCTL   | LMOD| LALT| Num |     | BL-reset |    |    |
 
             bindings = <
-  &kp A      &kp C_MUTE        &kp UP_ARROW                 &mt C_BRI_DEC C_VOL_DN  &mt C_BRI_INC C_VOL_UP    &mt RBRC LBRC               &kp N7  &kp N8  &kp N9            &mt MINUS PLUS
-  &kp SQT    &kp LEFT          &kp DOWN                     &kp RIGHT               &kp NON_US_BSLH           &mt RBKT LBKT               &kp N4  &kp N5  &kp N6            &mt SLASH KP_MULTIPLY
-  &kp GRAVE  &kp C_PLAY_PAUSE  &mt C_REWIND C_FAST_FORWARD  &kp B                   &kp C                     &mt GREATER_THAN LESS_THAN  &kp N1  &kp N2  &kp N3            &kp EQUAL
-  &trans     &trans            &trans                       &trans                  &trans                    &trans                      &trans  &kp N0  &mt KP_CLEAR DOT  &trans
+  &kp A      &kp C_MUTE        &kp UP_ARROW                 &mt C_BRI_DEC C_VOL_DN  &mt C_BRI_INC C_VOL_UP    &mt RBRC LBRC               &kp N7  &kp N8    &kp N9        &mt MINUS PLUS
+  &kp SQT    &kp LEFT          &kp DOWN                     &kp RIGHT               &kp NON_US_BSLH           &mt RBKT LBKT               &kp N4  &kp N5    &kp N6        &mt SLASH KP_MULTIPLY
+  &kp GRAVE  &kp C_PLAY_PAUSE  &mt C_REWIND C_FAST_FORWARD  &kp B                   &kp C                     &mt GREATER_THAN LESS_THAN  &kp N1  &kp N2    &kp N3        &mt KP_CLEAR EQUAL
+  &trans     &trans            &trans                       &trans                  &trans                    &trans                      &to 0   &lt 2 N0  &lt 3 PERIOD  &trans
             >;
         };
 
@@ -87,7 +87,7 @@
   &kp ESC    &kp F1  &kp F2   &kp F3   &kp F4     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
   &kp CAPS   &kp F5  &kp F6   &kp F7   &kp F8     &bt BT_PRV    &bt BT_NXT    &kp A         &kp B         &kp C
   &kp LSHFT  &kp F9  &kp F10  &kp F11  &kp F12    &bt BT_CLR    &sys_reset    &kp D         &kp E         &kp F
-  &trans     &trans  &trans   &trans   &trans     &trans        &none         &trans        &tog 2        &trans
+  &trans     &trans  &trans   &trans   &trans     &trans        &to 0         &to 1         &to 3         &trans
             >;
         };
 
