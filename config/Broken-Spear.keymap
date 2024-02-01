@@ -56,8 +56,8 @@
 
             bindings = <
   &mt ESC Q        &mt PG_UP W  &mt UP E     &mt PG_DN R  &mt LC(PLUS) T     &mt EQUAL Y     &mt N7 U    &mt N8 I      &mt N9 O    &mt PRINTSCREEN P
-  &mt LA(TAB) A    &mt LEFT S   &mt DOWN D   &mt RIGHT F  &mt LC(MINUS) G    &mt SQT H       &mt N4 J    &mt N5 K      &mt N6 L    &mt MINUS SEMI
-  &mt LC(Z) Z      &mt LC(X) X  &mt LC(C) C  &mt LC(V) V  &mt GRAVE B        &mt END N       &mt N1 M    &mt N2 COMMA  &mt N3 DOT  &mt BSLH FSLH
+  &mt LA(TAB) A    &mt LEFT S   &mt DOWN D   &mt RIGHT F  &mt LC(MINUS) G    &mt MINUS H     &mt N4 J    &mt N5 K      &mt N6 L    &mt SQT SEMI
+  &mt LC(Z) Z      &mt LC(X) X  &mt LC(C) C  &mt LC(V) V  &mt END B          &mt GRAVE N     &mt N1 M    &mt N2 COMMA  &mt N3 DOT  &mt BSLH FSLH
   &mt ENTER SPACE  &kp LWIN     &kp LALT     &kp LSHIFT   &kp LCTRL          &mt K_CALC TAB  &lt 1 BSPC  &lt 2 N0      &lt 3 DEL   &mt ENTER SPACE
             >;
         };
