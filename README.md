@@ -3,6 +3,7 @@
 
 Handwiring inspiration thanks to ScottoKeebs 
   (https://scottokeebs.com/)
+  
 Keymap & Keymap layout assistance to nickcoutos 
   Keymap Editor:          https://nickcoutsos.github.io/keymap-editor/
   Keymapp Layout Helper:  https://nickcoutsos.github.io/keymap-layout-tools/
