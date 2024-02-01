@@ -54,8 +54,8 @@
             // |Spc/Ent| Win | Alt | Shift | Ctrl | Tab | FN | Alt/0 | Layer2 | BSPC/Del |
 
             bindings = <
-  &mt ESC Q        &mt PG_UP W  &mt UP E     &mt PG_DN R  &mt LC(PLUS) T     &mt SQT Y       &mt KP_NUMBER_7 U  &mt KP_N8 I      &mt KP_N9 O    &mt BSPC P
-  &kp A            &mt LEFT S   &mt DOWN D   &mt RIGHT F  &mt LC(MINUS) G    &mt DQT H       &mt KP_N4 J        &mt KP_N5 K      &mt KP_N6 L    &mt PRINTSCREEN SEMI
+  &mt ESC Q        &mt PG_UP W  &mt UP E     &mt PG_DN R  &mt LC(PLUS) T     &mt SQT Y       &mt KP_NUMBER_7 U  &mt KP_N8 I      &mt KP_N9 O    &mt PRINTSCREEN P
+  &mt LA(TAB) A    &mt LEFT S   &mt DOWN D   &mt RIGHT F  &mt LC(MINUS) G    &mt DQT H       &mt KP_N4 J        &mt KP_N5 K      &mt KP_N6 L    &kp SEMICOLON
   &mt LC(Z) Z      &mt LC(X) X  &mt LC(C) C  &mt LC(V) V  &kp B              &mt END N       &mt KP_N1 M        &mt KP_N2 COMMA  &mt KP_N3 DOT  &mt QMARK EXCL
   &mt ENTER SPACE  &kp LWIN     &kp LALT     &kp LSHIFT   &kp LCTRL          &mt K_CALC TAB  &lt 1 BSPC         &lt 2 KP_N0      &lt 3 DEL      &mt ENTER SPACE
             >;
