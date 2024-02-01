@@ -1,1 +1,5 @@
-west build --pristine -b nice_nano_v2 -- -DSHIELD=Broken-Spear -DZMK_EXTRA_MODULES=C:\Users\scott\Documents\Keybs\zmkconfiguration\boards\shields\Broken-Spear    
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
