@@ -1,4 +1,0 @@
-name: Broken-Spear
-build:
-  settings:
-    board_root: .
