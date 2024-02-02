@@ -72,7 +72,7 @@
             bindings = <
   &kp ESC    &mt C_MUTE C_PP  &kp UP_ARROW  &mt C_FAST_FORWARD C_REWIND  &mt C_BRI_INC C_VOL_UP    &mt RBRC LBRC               &mt SQT N7     &mt N8 GRAVE  &mt PRINTSCREEN N9  &mt MINUS PLUS
   &kp PG_UP  &kp LEFT         &kp DOWN      &kp RIGHT                    &mt C_BRI_DEC C_VOL_DN    &mt RBKT LBKT               &mt PERIOD N4  &mt COMMA N5  &mt BSLH N6         &mt SLASH KP_MULTIPLY
-  &kp PG_DN  &mkp MB4         &mkp MP5      &kp HOME                     &kp END                   &mt GREATER_THAN LESS_THAN  &kp N1         &kp N2        &kp N3              &mt KP_CLEAR EQUAL
+  &kp PG_DN  &mkp MB4         &mkp MB5      &kp HOME                     &kp END                   &mt GREATER_THAN LESS_THAN  &kp N1         &kp N2        &kp N3              &mt KP_CLEAR EQUAL
   &trans     &trans           &trans        &trans                       &trans                    &trans                      &lt 0 BSPC     &lt 2 N0      &lt 3 DEL           &trans
             >;
         };
