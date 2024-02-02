@@ -1,0 +1,10 @@
+file_format: "1"
+id: Broken-Spear
+name: Broken-Spear
+type: shield
+url: https://github.com/YK7ROS/Keyb_Broken-Spear
+requires: [Nice!Nano_v2]
+exposes: 
+features:
+  - keys
+siblings:
